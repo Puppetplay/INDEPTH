@@ -16,5 +16,10 @@ namespace Chapter1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Chapter1_1_3.Product pd = new Chapter1_1_3.Product("1", 3m);
+        }
     }
 }
